@@ -7,9 +7,11 @@
     <title>Home Page</title>
 </head>
 <body>
-   include header
+    <%= require('html-loader!../commons/header.html') %>
+    
     <h1 class="some-reset-code">Some reset code</h1>
-    include foorer
+
+    <%= require('html-loader!../commons/footer.html') %>
 
     <span></span>
 </body>
